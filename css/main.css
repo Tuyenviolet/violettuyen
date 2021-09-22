@@ -1,0 +1,144 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+h1,h4{
+	font-family: 'Merienda', cursive;
+}
+h1{font-size: 75px;}
+.btn{
+	border-radius: 50px;
+}
+.btn-light{	
+	padding: 10px 20px;
+}
+.btn-primary{
+	padding: 10px 45px;
+}
+.btn-outline-primary{
+	padding: 10px 35px;
+}
+body{
+	color: rgba(0,0,0,.80);
+  	justify-content: center;
+}
+
+.typewriter h5 {
+  opacity: 0.8;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+#story{
+	padding-bottom: 0;
+}
+#sale{
+	background-image: url("../images/banner-bg.jpg");
+	background-size: cover;
+}
+#services{
+	background-image: url("../images/reservation-bg.jpg");
+	background-size: cover;
+}
+#feedback{
+	background-image: url("../images/review-bg.jpg");
+	background-size: cover;
+}
+
+#blog{
+	background: #F5E7E7;
+}
+.anh{
+	height: 100px;
+}
+.contact-section {
+  padding-top: 5rem;
+}
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+.contact-section .card h4, .contact-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.contact-section .social {
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+  color: #fff;
+}
+.carousel-inner{
+	min-height: 500px;
+	position: relative;
+	justify-content: center;
+}
+
+.img-fb{
+	position: absolute;
+	width: 12rem;
+	height: 12rem;
+	top: 8%;
+	left: 35%;	
+}
+.cach{
+	height: 250px;
+}
+@media screen and (max-width: 572px) {
+.img-fb{
+	position: absolute;
+	width: 8rem;
+	height: 8rem;
+	top: 6%;
+	left: 18%;
+	}
+.cach{
+	height: 150px;
+	}
+}
+@media screen and (max-width: 768px) {
+.img-fb{
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+	top: 6%;
+	left: 30%;
+	}
+}
+
+
